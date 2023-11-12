@@ -1,0 +1,32 @@
+<!-- coleg1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ureche Andrei - Profil</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NAndrei Ureche</h1>
+    </header>
+
+    <section id="personal-info">
+        <!-- Are 19 ani -->
+    </section>
+
+    <section id="contact-info">
+        <!-- andreiureche@gmail.com -->
+    </section>
+
+    <section id="bio">
+        <!-- Andrei Ureche, 19 ani, Targu Mures -->
+    </section>
+
+    <footer>
+        &copy; 2023 Ureche Andrei
+    </footer>
+</body>
+</html>
