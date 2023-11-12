@@ -16,7 +16,6 @@
     <nav>
         <ul>
             <li><a href="coleg1.html">Andrei Ureche</a></li>
-            <!-- Adaugă legături către paginile individuale pentru ceilalți colegi -->
         </ul>
     </nav>
 
