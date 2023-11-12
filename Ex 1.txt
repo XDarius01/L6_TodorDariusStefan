@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descriere Personală</title>
+    
+    <style>
+        body {
+            background-color: #f0f0f0; /* culoare fundal pagina */
+            color: #333; /* culoare text general */
+            font-family: 'Arial', sans-serif; /* fontul principal */
+            margin: 20px; /* margini pentru a evita lipirea de marginea ecranului */
+        }
+
+        h1, h2, h3 {
+            color: #0066cc; /* culoare pentru titluri */
+            font-family: 'Verdana', sans-serif; /* font pentru titluri */
+        }
+
+        p {
+            font-size: 16px; /* dimensiune font paragraf */
+            line-height: 1.6; /* spatiere intre linii */
+        }
+
+        section {
+            background-color: #fff; /* culoare fundal sectiune */
+            padding: 15px; /* spatiu interior sectiune */
+            border: 1px solid #ccc; /* bordura sectiune */
+            margin-bottom: 20px; /* spatiu intre sectiuni */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd; /* bordura celule */
+            padding: 8px;
+            text-align: left;
+        }
+
+        img {
+            border-radius: 50%; /* margini rotunde pentru imaginea de profil */
+            width: 150px; /* dimensiune imagine */
+            height: 150px;
+            float: left; /* aliniere la stanga */
+            margin-right: 20px; /* spatiu intre imagine si text */
+        }
+
+        ul {
+            list-style-type: square; /* marcatori in forma de patrat pentru liste */
+        }
+
+        #hobbies {
+            border: 2px solid #339966; /* bordura sectiune hobby-uri */
+            padding: 15px;
+            background-color: #ccffcc; /* culoare fundal sectiune hobby-uri */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Todor Darius-Stefan</h1>
+        <p>Data și Locul Nașterii: 24 Decembrie, 2003, orasul Sebes</p>
+    </header>
+
+    <section>
+        <img src="Darius-iconita.jpg" alt="Poză reprezentativă" width="200" height="300">
+        <p>Descriere personală: Salut! Sunt Todor Darius, am 19 ani si imi place sa schiez, sa conduc si sa ma plimb cu bicicleta pe teren de tip off-road.</p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: dariusilatodor7@gmail.com</p>
+        <p>Telefon: 0758516208</p>
+    </section>
+
+    <section>
+        <h2>Educație</h2>
+        <table>
+            <tr>
+                <th>An</th>
+                <th>Școala/Facultatea</th>
+                <th>Specializarea</th>
+                
+            </tr>
+            <tr>
+                <td>2023-2027</td>
+                <td>Universitatea Tehnica</td>
+                <td>Electronica, telecomunicatii si tehnologii informationale</td>
+        
+            </tr>
+  
+        </table>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobby-uri</h2>
+        <ul>
+            <li>Driving</li>
+            <li>Skying</li>
+            <li>Cycling</li>
+        </ul>
+    </section>
+
+</body>
+</html>
